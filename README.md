@@ -3,7 +3,6 @@ threex.sample
 
 threex.sample is a three.js extension which provide an sample for other developpers.
 Thus they can copy it and start their own extension.
-
 Here is an [example](http://jeromeetienne.github.io/threex.sample/examples/basic.html) and its [source](https://github.com/jeromeetienne/threex.sample/blob/master/examples/basic.html).
 
 How To Install It
