@@ -7,10 +7,10 @@ Thus they can copy it and start their own extension.
 Show Don't Tell
 ===============
 * [examples/basic.html](http://jeromeetienne.github.io/threex.sample/examples/basic.html)
-\[[view source](https://github.com/jeromeetienne/threex.sample/blob/master/examples/basic.html)\].
+\[[view source](https://github.com/jeromeetienne/threex.sample/blob/master/examples/basic.html)\] :
 It shows this feature, and that one which is coded like that.
 * [examples/requirejs.html](http://jeromeetienne.github.io/threex.sample/examples/requirejs.html)
-\[[view source](https://github.com/jeromeetienne/threex.sample/blob/master/examples/requirejs.html)\].
+\[[view source](https://github.com/jeromeetienne/threex.sample/blob/master/examples/requirejs.html)\] :
 It does that this way, and it is cool in that case.
 
 How To Install It
