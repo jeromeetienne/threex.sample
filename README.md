@@ -1,7 +1,9 @@
 threex.sample
-===================
+=============
 
-threex.sample is a three.js extension which provide an sample for other developpers.
+threex.sample is a 
+[threex game extension for three.js](http://www.threejsgames.com/extensions/).
+It provides an sample for other developpers.
 Thus they can copy it and start their own extension.
 
 Show Don't Tell
@@ -12,6 +14,10 @@ It shows this feature, and that one which is coded like that.
 * [examples/requirejs.html](http://jeromeetienne.github.io/threex.sample/examples/requirejs.html)
 \[[view source](https://github.com/jeromeetienne/threex.sample/blob/master/examples/requirejs.html)\] :
 It does that this way, and it is cool in that case.
+
+A Screenshot
+============
+[![screenshot](https://raw.githubusercontent.com/jeromeetienne/threex.sample/master/examples/images/screenshot-threex-sample-512x512.jpg)](http://jeromeetienne.github.io/threex.sample/examples/basic.html)
 
 How To Install It
 =================
