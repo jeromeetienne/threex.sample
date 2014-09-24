@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<script src='vendor/require.js/require.js'></script>
 <script src='vendor/three.js/build/three.min.js'></script>
 <script src='vendor/three.js/examples/js/controls/OrbitControls.js'></script>
 <body style='margin: 0px; overflow: hidden;'><script>
@@ -32,7 +33,16 @@ require([], function(){
 	var material	= new THREE.MeshNormalMaterial(); 
 	var mesh	= new THREE.Mesh( geometry, material );
 	scene.add( mesh );
-	
+
+	//////////////////////////////////////////////////////////////////////////////////
+	//		handle window resize
+	//////////////////////////////////////////////////////////////////////////////////
+	window.addEventListener('resize', function(){
+		renderer.setSize( window.innerWidth, window.innerHeight )
+		camera.aspect	= window.innerWidth / window.innerHeight
+		camera.updateProjectionMatrix()		
+	}, false)
+
 	//////////////////////////////////////////////////////////////////////////////////
 	//		render the scene
 	//////////////////////////////////////////////////////////////////////////////////
